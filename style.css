@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background:url("pngwing.com\ \(16\).png");
+    height: 100vh;
+    -webkit-background-size:cover;
+    background-size: cover;
+    background-position: center center;
+}
+
+h1{
+    color: #386ab5;
+    padding: 0;
+    margin: 0 auto;
+}
+
+textarea{
+    width: 500px;
+    height: 100px;
+    margin: 10px 0;
+    padding: 10px;
+    border: 3px solid #28aedb;
+    resize: none;
+    border-radius: 20px;
+}
+
+textarea:focus{
+    outline: none;
+    border-color: #7aadd8;
+    box-shadow: 0 0 10px #7aadd8;
+}
+input[type="text"]::placeholder{
+    color: #7aadd8;
+}
+button{
+    background-color: #0074D9;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: #0056b3;
+    box-shadow: 0 0 10px #7aadd8;
+}
